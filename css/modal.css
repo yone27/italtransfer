@@ -1,0 +1,87 @@
+figure {
+    margin: 0;
+}
+
+.modal .modal-title {
+    color: #fff;
+    text-align: center;
+    flex-grow: 1;
+    margin: 0;
+    font-weight: normal;
+    font-size: 22px;
+}
+.modal .modal-content {
+    border-radius: 10px;
+}
+.modal .modal-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 30px 10px 10px;
+    margin-bottom: 10px;
+}
+.modal .modal-body {
+    padding-top: 0;
+    padding: 0 15px 15px;
+}
+.modal .modal-content,
+.modal .modal-header {
+    background-color: #68a0d5;
+    border: none;
+    position: relative;
+}
+
+.modal img {
+    max-width:100%;
+}
+.modal .modal-p {
+    color: #ecf0f1;
+    text-align: justify;
+    margin: 0;
+    font-size: 1.1em;
+}
+.modal .modal-body > :not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.modal-ps {
+    line-height: 1.7;
+}
+
+.modal-p.small {
+    font-size: 10px !important;
+}
+
+.c-row {
+    display: flex;
+    align-items: center;
+}
+.pl15 {
+    padding-left: 15px;
+}
+.pr15 {
+    padding-right: 15px;
+}
+.modal-title.small {
+    font-size: 18px;
+    text-align: left !important;
+}
+
+.list {
+    text-align: left;
+}
+.text-white {
+    color: white;
+}
+.close {
+    background: transparent;
+    color: white;
+    font-size: 2em;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+.mb20 {
+    margin-bottom: 20px !important;
+}

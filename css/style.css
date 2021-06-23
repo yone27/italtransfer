@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #707070;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    max-height: 50px;
+    margin-left: 1rem;
+}
+.mr2 {
+    margin-right: 2rem;
+}
+.fondo_principal {
+    background-image: url(../assets/images/banner_principal.png);
+    background-size: cover;
+    background-position: center right;
+    margin-bottom: 2rem;
+}
+.fondo_estrategia {
+    background-image: url(../assets/images/banner_estrategia.png);
+    background-size: cover;
+    background-position: center right;
+    margin-bottom: 2rem;
+}
+.fondo_servicios {
+    background-image: url(../assets/images/banner_servicios.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+.fondo_legislacion {
+    background-image: url(../assets/images/banner_legislacion.jpg);
+    background-size: cover;
+    background-position: center right;
+    margin-bottom: 2rem;
+}
+.fondo_contacto {
+    background-image: url(../assets/images/banner_contacto.jpg);
+    background-size: cover;
+    background-position: center right;
+    margin-bottom: 2rem;
+}
+.fondo_quienes {
+    background-image: url(../assets/images/banner_quienes.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+.fondo_sucursales {
+    background-image: url(../assets/images/banner_sucursales.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+.banner_principal {
+    padding: 3rem;
+    margin-top: 5rem;
+}
+.logo_principal {
+    max-height: 10rem;
+}
+.pl0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.azul_italtransfer1 {
+    color: #15569d;
+}
+.azul_italtransfer2 {
+    color: #1EA8FF;
+}
+.texto_ital {
+    max-width: 350px;
+    min-width: 300px;
+    margin-bottom: 2rem;
+}
+.ptop5rem {
+    padding-top: 5rem;
+}
+.btn {
+    border-radius: 100px;
+    padding: .375rem 1.5rem;
+}
+.btn-primary {
+    background-color: #1EA8FF;
+    border-color: #1EA8FF;
+}
+.btn-primary:hover {
+    background-color: #114692;
+    border-color: #114692;
+}
+.footer1 {
+    font-size: .9rem;
+    color: white;
+    background-color: #989BA7;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.footer2 {
+    font-size: .8rem;
+    color: white;
+    background-color: #343A40;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.icon-redes {
+    max-height: 32px;
+    margin-right: 1rem;
+}
+.decoration-none {
+    color: white;
+    text-decoration: none;
+}
+.decoration-none:hover {
+    color: white;
+    text-decoration: none;
+}
+.mapa {
+    margin-left: -.8rem;
+}
+.filter {
+    filter: grayscale(80%);
+}
+.filter:hover {
+    filter: none;
+}
+.pb1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.compra {
+    background-color: black;
+    height: 60px;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX();
+    }
+    100% {
+        transform: translateX(calc(-130px * 26));
+    }
+}
+.slider {
+    background: black;
+    height: 60px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    color: white;
+}
+.slider::before, .slider::after {
+    background: linear-gradient(to right, black 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+.slider::before {
+    left: 0;
+    top: 0;
+}
+.slider .slide-track {
+    animation: scroll 25s linear infinite;
+    display: flex;
+    width: calc(130px * 52);
+}
+.slider .slide {
+    height: 60px;
+    width: 130px;
+}
+.mb-15 {
+    margin-bottom: -20px;
+    display: flex;
+    align-items: baseline;
+}
+.pl-0 {
+    padding-left: 0;
+}
+.jumbotron-fluid {
+    margin-top: 4rem;
+}
+.modal-body-inicio {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    color: #15569d;
+}
+.modal-content-inicio {
+    border-radius: 1rem;
+    background-image: url(../assets/images/fondomodal5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.modal-body-quejas {
+    padding: 0!important;
+}
+.modal-content-quejas {
+    border-radius: 1rem;
+}
+.pb1 {
+    padding-bottom: 1rem;
+}
