@@ -166,6 +166,10 @@
             </div>
         </section>
 
+    <!-- icono de pepin -->
+    <div class="div-pepin">
+        <button id="pepin" class="btn-pepin"><img src="./assets/images/pepinvs1.jpg" alt="" class="w-100"></button>
+    </div>
 
 
 
@@ -192,10 +196,10 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"
             integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
             crossorigin="anonymous"></script>
-	<script type="text/javascript">
+	    <script type="text/javascript">
             $('#modalinicio').modal('show');
         </script>
-
+        <script src="./js/main.js" type="module"></script>
         <!--Rocket-->
         <?php include("includes/rocket.php");?>
     </body>
